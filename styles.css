@@ -1,13 +1,41 @@
 html {
-  font-size: 14px;
   box-sizing: border-box;
+  font-size: 14px;
   scroll-behavior: smooth;
 }
 
 *,
 *::before,
 *::after {
+  margin: 0;
+  padding: 0;
   box-sizing: inherit;
+}
+
+body {
+  margin: 5.715rem 0.857rem;
+  background-color: hsl(30, 38%, 92%);
+  font-family: "Montserrat", sans-serif;
+  color: hsl(212, 21%, 14%);
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 0.5714rem;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.product-image {
+  width: 100%;
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1.714rem;
+  margin: 2.2857rem;
 }
 
 /*# sourceMappingURL=styles.css.map */

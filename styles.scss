@@ -11,13 +11,41 @@ $font-family-montserrat: 'Montserrat', sans-serif;
 $font-family-fraunces: 'Fraunces', serif;
 
 html {
-  font-size: $font-size-base;
   box-sizing: border-box;
+  font-size: $font-size-base;
   scroll-behavior: smooth;
 }
 
 *,
 *::before,
 *::after {
+  margin: 0;
+  padding: 0;
   box-sizing: inherit;
+}
+
+body {
+  margin: 5.715rem 0.857rem;
+  background-color: $color-neutral-cream;
+  font-family: $font-family-montserrat;
+  color: $color-neutral-black;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 0.5714rem;
+  background-color: $color-neutral-white;
+}
+
+.product-image {
+  width: 100%;
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1.714rem;
+  margin: 2.2857rem;
 }
