@@ -25,7 +25,6 @@ html {
 }
 
 body {
-  margin: 5.715rem 0.857rem;
   background-color: $color-neutral-cream;
   font-family: $font-family-montserrat;
   color: $color-neutral-black;
@@ -35,6 +34,7 @@ body {
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  margin: 5.7143rem 0.8571rem;
   border-radius: 0.5714rem;
   background-color: $color-neutral-white;
 }
@@ -46,6 +46,66 @@ body {
 .product-details {
   display: flex;
   flex-direction: column;
-  gap: 1.714rem;
+  gap: 1.7143rem;
   margin: 2.2857rem;
+}
+
+.product-category {
+  font-size: 0.8571rem;
+  font-weight: 500;
+  line-height: 1.2em;
+  letter-spacing: 0.4167em;
+  text-transform: uppercase;
+  color: $color-neutral-grey;
+}
+
+.product-title {
+  font-family: $font-family-fraunces;
+  font-size: 2.2857rem;
+  font-weight: 700;
+  line-height: 1em;
+  color: $color-neutral-black;
+}
+
+.product-description {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.6em;
+  color: $color-neutral-grey;
+}
+
+.product-price {
+  display: flex;
+  align-items: center;
+  gap: 1.1428rem;
+
+  .discounted {
+    font-family: $font-family-fraunces;
+    font-size: 2.2857rem;
+    font-weight: 700;
+    line-height: 1em;
+    color: $color-primary-500;
+  }
+
+  .original {
+    font-size: 0.9286rem;
+    font-weight: 500;
+    line-height: 1.2em;
+    color: $color-neutral-grey;
+  }
+}
+
+.add-to-cart-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5714rem;
+  border: none;
+  border-radius: 0.5714rem;
+  padding: 1.1428rem 2.2857rem;
+  background-color: $color-primary-500;
+  color: $color-neutral-white;
+  font-family: $font-family-montserrat;
+  font-weight: 700;
+  line-height: 1.1rem;
 }
