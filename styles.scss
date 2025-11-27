@@ -10,8 +10,14 @@ $font-size-base: 14px;
 $font-family-montserrat: 'Montserrat', sans-serif;
 $font-family-fraunces: 'Fraunces', serif;
 
+html {
+  font-size: $font-size-base;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  box-sizing: inherit;
 }
